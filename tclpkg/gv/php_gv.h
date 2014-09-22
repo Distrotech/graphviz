@@ -73,8 +73,8 @@ ZEND_NAMED_FUNCTION(_wrap_nextattr);
 ZEND_NAMED_FUNCTION(_wrap_rm);
 ZEND_NAMED_FUNCTION(_wrap_layout);
 ZEND_NAMED_FUNCTION(_wrap_render);
-ZEND_NAMED_FUNCTION(_wrap_renderchannel);
 ZEND_NAMED_FUNCTION(_wrap_renderresult);
+ZEND_NAMED_FUNCTION(_wrap_renderchannel);
 ZEND_NAMED_FUNCTION(_wrap_renderdata);
 ZEND_NAMED_FUNCTION(_wrap_write);
 #endif /* PHP_GV_H */

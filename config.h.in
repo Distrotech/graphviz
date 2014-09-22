@@ -172,6 +172,9 @@
 /* Define if you have the GDI+ framework for Windows */
 #undef HAVE_GDIPLUS
 
+/* Define if you have the gdk library */
+#undef HAVE_GDK
+
 /* Define if you have the gdk_pixbuf library */
 #undef HAVE_GDK_PIXBUF
 
@@ -234,6 +237,12 @@
 
 /* Define if you have the gts library */
 #undef HAVE_GTS
+
+/* Define to 1 if you have the `g_object_unref' function. */
+#undef HAVE_G_OBJECT_UNREF
+
+/* Define to 1 if you have the `g_type_init' function. */
+#undef HAVE_G_TYPE_INIT
 
 /* Define to 1 if you have the <IL/il.h> header file. */
 #undef HAVE_IL_IL_H
@@ -321,6 +330,9 @@
 
 /* Define to 1 if you have the `pango_fc_font_unlock_face' function. */
 #undef HAVE_PANGO_FC_FONT_UNLOCK_FACE
+
+/* Define to 1 if you have the `pango_font_map_create_context' function. */
+#undef HAVE_PANGO_FONT_MAP_CREATE_CONTEXT
 
 /* Define if you have the poppler library */
 #undef HAVE_POPPLER
@@ -566,9 +578,6 @@
 /* Define if you want ORTHO */
 #undef ORTHO
 
-/* Name of package */
-#undef PACKAGE
-
 /* Define to the address where bug reports for this package should be sent. */
 #undef PACKAGE_BUGREPORT
 
@@ -616,10 +625,7 @@
 /* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
 #undef TIME_WITH_SYS_TIME
 
-/* Version number of package */
-#undef VERSION
-
-/* Define if you want CGRAPH */
+/* Historical artifact - always true */
 #undef WITH_CGRAPH
 
 /* Define to 1 if the X Window System is missing or not being used. */
